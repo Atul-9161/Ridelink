@@ -1,4 +1,4 @@
-# RideSync
+# Ridelink
 
 A fullstack ride-sharing web application built with React and Node.js. Users can request rides, captains (drivers) can accept and complete them — all in real time.
 
@@ -41,11 +41,7 @@ A fullstack ride-sharing web application built with React and Node.js. Users can
 
 ---
 
-## Screenshots
 
-> Coming soon — run the app locally to explore the UI.
-
----
 
 ## Quick Start
 
@@ -56,8 +52,8 @@ A fullstack ride-sharing web application built with React and Node.js. Users can
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/Sid-das-2023/Uber-Clone.git
-cd ridesync
+git clone https://github.com/Atul-9161/Ridelink.git
+cd ridelink
 ```
 
 ### 2. Set up Backend
@@ -69,7 +65,7 @@ npm install
 Create `Backend/.env`:
 ```env
 PORT=3000
-DB_CONNECT=mongodb://localhost:27017/ridesync
+DB_CONNECT=mongodb:string
 JWT_SECRET=your_jwt_secret_here
 ```
 
